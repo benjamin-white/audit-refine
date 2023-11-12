@@ -4,14 +4,16 @@
   "description": "A simple template to write typescript for node",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc --project tsconfig.build.json",
     "test": "vitest",
     "audit": "bun lib/audit.ts"
   },
   "license": "MIT",
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.3",
-    "ts-jest": "^29.1.1",
+    "@types/lodash.isequal": "^4.5.8",
+    "audit-types": "^0.5.6",
+    "lodash.isequal": "^4.5.0",
     "typescript": "^5.2.2",
     "vite": "^4.5.0",
     "vitest": "^0.34.6"

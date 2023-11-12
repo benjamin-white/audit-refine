@@ -3,6 +3,9 @@
   "compilerOptions": {
     "outDir": "dist",
     "declaration": true,
-    "resolveJsonModule": true
-  }
+    "resolveJsonModule": true,
+    "target": "ES2018"
+  },
+  "include": ["lib"],
+  "exclude": ["node_modules"]
 }
