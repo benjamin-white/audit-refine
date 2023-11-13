@@ -4,7 +4,9 @@
     "outDir": "dist",
     "declaration": true,
     "resolveJsonModule": true,
-    "target": "ES2018"
+    "moduleResolution": "Bundler",
+    "target": "ES2018",
+    "module": "ES2020"
   },
   "include": ["lib"],
   "exclude": ["node_modules"]
